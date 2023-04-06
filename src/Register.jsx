@@ -20,7 +20,7 @@ export const Register = () => {
         <div className='form'>
                 
             <label htmlFor="text">Username</label>
-            <input value={username} type="text" placeholder='Username' onChange={(e)=>setPassword(e.target.value)} id='name' />
+            <input value={username} type="text" placeholder='Username' onChange={(e)=>setName(e.target.value)} id='name' />
 
             <label htmlFor="email">Email</label>
             <input value={email} type="text" placeholder='Your Email' id='email' name='email' onChange={(e)=>setEmail(e.target.value)}/>
